@@ -1,0 +1,71 @@
+*{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+h1 {display: grid;
+    width: 100%;
+    height: 200%;
+    background-color: blanchedalmond;
+    color: peru;
+    
+    text-align:center}
+/* *********chera har do ra niaz darim va chjoori ax ra bedam pain */
+    .img{text-align: center;}
+       
+    img { width: 40%;
+         height:40%;
+        border-radius: 1000%;
+        } 
+
+a {text-decoration: none;
+    color:maroon;
+
+   
+    }
+
+    .top-menu{
+    grid-template: 1fr 1fr / 1fr 1fr;
+    list-style-type: none;
+    background-color: wheat;
+    display: grid; 
+    grid-template-columns:auto auto auto;
+    justify-content: space-around;
+    
+  
+}
+
+.footer {
+    
+    text-align: center; 
+    background-color: black;
+    color:antiquewhite;
+    padding: 4%;
+    display: grid; 
+    grid-template-columns:auto auto auto;
+    justify-content: space-around;
+    list-style-type: none;
+    /* grid-template: 1fr 1fr / 1fr 1fr/1fr 1fr; */
+    /* display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between; */
+}
+
+body {
+     
+      font-size: xx-large;
+      display: grid; 
+      grid-template-rows:auto auto auto;
+      width: 100%;
+      height:100%;
+      background-color: darksalmon;
+      color: #3e3e3e;
+      padding-left:10%;
+      padding-right: 10%;
+      padding-top:10%
+}
+.bottom_links {color:white;
+    text-decoration: none
+    }
+#copyright{text-align: center;}

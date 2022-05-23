@@ -1,0 +1,47 @@
+*{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+body {
+     
+    font-size: x-large;
+    display: flex; 
+    flex-direction:  column;
+    flex-shrink: 0;
+    background-color: darksalmon;
+    color: #3e3e3e;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-top:5%;
+    padding-bottom: 10%;
+}
+
+.viewing-party{background-color:darkkhaki;
+    
+padding-left: 2cm;
+padding-right: 2cm;}
+.solar_system{background-color:coral;
+    
+    padding-left: 2cm;
+    padding-right: 2cm;}
+.swapmeet{background-color: darkgoldenrod;
+    padding-left: 2cm;
+    padding-right: 2cm;}
+.adagrams{background-color: gold;
+    padding-left: 2cm;
+    padding-right: 2cm;}
+
+    #copyright{text-align: center;}
+a{text-decoration: none;}
+a:hover{color: brown;}
+
+.footer {
+    
+    text-align: center; 
+    background-color: black;
+    color:white;
+    padding: 4%;
+    display: grid; 
+    grid-template-columns:auto auto auto;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}

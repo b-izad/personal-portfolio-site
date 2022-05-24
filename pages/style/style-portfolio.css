@@ -1,4 +1,15 @@
-*{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+*{font-family: 'Roboto Flex', sans-serif;}
+.top-menu{
+    grid-template: 1fr 1fr / 1fr 1fr;
+    list-style-type: none;
+    background-color: wheat;
+    display: grid; 
+    grid-template-columns:auto auto auto;
+    justify-content: space-around;
+    height:max-content;
+    
+  
+}
 
 body {
      
@@ -30,7 +41,11 @@ padding-right: 2cm;}
     padding-right: 2cm;}
 
     #copyright{text-align: center;}
-a{text-decoration: none;}
+a{text-decoration: none;
+        color:maroon;
+    
+       
+        }
 a:hover{color: brown;}
 
 .footer {
